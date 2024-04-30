@@ -12,7 +12,6 @@ export function AdminPage() {
     <SubPageLayout>
       <ThinContainer>
         <Heading1>Admin tools</Heading1>
-        <Paragraph>Silly tools used test sudo-flix! ૮₍´˶• . • ⑅ ₎ა</Paragraph>
 
         <ConfigValuesPart />
         <BackendTestPart />
