@@ -37,7 +37,7 @@
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
-      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase!</bold>",
+      "description": "Your passphrase acts as your username and password. Make sure to keep it safe as you will need to enter it to login to your account. <bold>Do NOT lose your passphrase</bold>",
       "next": "I have saved my passphrase",
       "passphraseFrameLabel": "Passphrase",
       "title": "Your passphrase"
@@ -56,7 +56,7 @@
       "information": {
         "color1": "Profile color one",
         "color2": "Profile color two",
-        "header": "Enter a name for your device then pick colors and a user icon of your choosing!",
+        "header": "Enter a name for your device then pick colors and a user icon of your choosing",
         "icon": "User icon",
         "next": "Next",
         "title": "Account information"
@@ -67,7 +67,7 @@
         "text": "Did you configure it correctly?",
         "title": "Failed to reach server"
       },
-      "noHostTitle": "Server not configured!",
+      "noHostTitle": "Server not configured",
       "noHost": "The server has not been configured, therefore you cannot create an account",
       "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
       "no": "Go back",
@@ -89,7 +89,7 @@
     "details": "Error details",
     "reloadPage": "Reload the page",
     "showError": "Show error details",
-    "title": "We encountered an error!"
+    "title": "We encountered an error"
   },
   "footer": {
     "legal": {
@@ -102,7 +102,7 @@
       "github": "GitHub",
       "twitter": "Twitter"
     },
-    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+    "tagline": "Watch your favorite shows and movies for free with no ads ever (っ'ヮ'c)"
   },
   "global": {
     "name": "SamJ Movies",
@@ -118,7 +118,7 @@
       "settings": "Settings"
     }
   },
-   "home": {
+ "home": {
     "bookmarks": {
       "sectionTitle": "Bookmarks"
     },
@@ -130,7 +130,7 @@
     },
     "search": {
       "allResults": "That's all we have...",
-      "failed": "Failed to find media, try again!",
+      "failed": "Failed to find media, try again",
       "loading": "Loading...",
       "noResults": "We couldn't find anything :(",
       "placeholder": {
@@ -139,34 +139,74 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "SamJ Movies is the best site ever!",
+          "idk what to put here",
           "What's on your watchlist today?",
           "How was your day?",
-          "Running error free since 2 minutes ago",
+          "error free since 3 minutes ago",
           "Isn't SamJ Movies just the best?",
           ":)"
         ]
       },
-      "sectionTitle": "Search results"
+      "empty": {
+        "default": "Welcome, find media to watch here",
+        "extra": [
+          "There's nothing here :(",
+          "So empty...",
+          "Such emptiness.",
+          "Welcome, find media to watch here"
+        ]
+      },
+      "sectionTitle": "Search results",
+      "discoverMore": "Discover more",
+      "discover": "Discover"
     },
+    "titles": {
+      "day": {
+        "default": "What would you like to watch this afternoon?",
+        "extra": ["Have you seen Blazing Saddles?"],
+        "extra": ["Welcome to SamJ Movies"],
+        "extra": ["hello"],
+        "extra": ["hi"]
+      },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
         "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la SamJ Movies!"]
+        "extra": ["Viva la SamJ Movies"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
-        "extra": ["Rick & Morty is great with friends!"],
-        "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la SamJ Movies!"]
+        "extra": ["Rick & Morty is great with friends"],
+        "extra": ["Go smoke and watch The Simpsons"],
+        "extra": [":)"],
+        "extra": ["Viva la SamJ Movies"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
-        "extra": ["Happy 4/20 🥳!"]
+        "extra": ["Happy 4/20 🥳"]
       }
+    }
+  },
+  "media": {
+    "episodeDisplay": "S{{season}} - E{{episode}}",
+    "unreleased": "Unreleased",
+    "types": {
+      "movie": "Movie",
+      "show": "Show"
+    }
+  },
+  "navigation": {
+    "banner": {
+      "offline": "Check your internet connection, silly goose 🦢"
+    },
+    "menu": {
+      "about": "About us",
+      "logout": "Log out",
+      "register": "Sync to Cloud",
+      "settings": "Settings",
+      "support": "Support",
+      "discover": "Discover"
     }
   },
   "media": {
@@ -184,7 +224,7 @@
     "menu": {
       "about": "About us",
       "logout": "Log out",
-      "register": "Sync to sudo-cloud",
+      "register": "Sync to Cloud",
       "settings": "Settings",
       "support": "Support",
       "discover": "Discover"
@@ -218,7 +258,7 @@
       "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
       "linkChrome": "Install Chrome extension",
       "linkFirefox": "Install Firefox extension",
-      "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
+      "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page",
       "notDetectingAction": "Reload page",
       "status": {
         "disallowed": "Extension is not enabled for this page",
@@ -226,7 +266,7 @@
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
         "outdated": "Extension version too old",
-        "success": "Extension is working as expected!"
+        "success": "Extension is working as expected"
       },
       "submit": "Continue",
       "title": "Let's start with an extension"
@@ -360,7 +400,7 @@
         },
         "title": "Subtitles",
         "unknownLanguage": "Unknown",
-        "dropSubtitleFile": "Drop subtitle file here!"
+        "dropSubtitleFile": "Drop subtitle file here"
       }
     },
     "metadata": {
@@ -407,8 +447,8 @@
         "errorNotSupported": "The media or media provider object is not supported."
       },
       "homeButton": "Go home",
-      "text": "There was an error trying to play the media. Please try again!",
-      "title": "Failed to play video!"
+      "text": "There was an error trying to play the media. Please try again",
+      "title": "Failed to play video"
     },
     "scraping": {
       "items": {
@@ -421,7 +461,7 @@
         "detailsButton": "Show details",
         "homeButton": "Go home",
         "discoverButton": "Discover more",
-        "text": "We have searched through our providers and cannot find the media you are looking for! We do not host the media and have no control over what is available. Please click 'Show details' below for more details.",
+        "text": "We have searched through our providers and cannot find the media you are looking for We do not host the media and have no control over what is available. Please click 'Show details' below for more details.",
         "title": "We couldn't find that"
       },
       "extensionFailure": {
@@ -439,8 +479,8 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the Captcha on the right. This is to keep SamJ Movies.lol safe!",
-      "error": "Failed to verify your humanity! Please try again.",
+      "description": "Please prove your humanity by completing the Captcha on the right. This is to keep SamJ Movies.lol safe",
+      "error": "Failed to verify your humanity Please try again.",
       "title": "Are You a Robot 🤖?",
       "verifyingHumanity": "Verifying your humanity..."
     }
@@ -493,7 +533,7 @@
         "delete": {
           "button": "Delete account",
           "confirmButton": "Delete account",
-          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost!",
+          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost",
           "confirmTitle": "Are you sure?",
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
@@ -552,7 +592,7 @@
         "redoSetup": "Redo setup",
         "successStatus": {
           "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
-          "title": "Everything is set up!"
+          "title": "Everything is set up"
         },
         "unsetStatus": {
           "description": "Please click the button to the right to start the setup process.",
