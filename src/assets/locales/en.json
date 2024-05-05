@@ -163,10 +163,10 @@
     "titles": {
       "day": {
         "default": "What would you like to watch this afternoon?",
-        "extra": ["Have you seen Blazing Saddles?"],
+        "extra": ["Have you seen Mamma Mia?"],
         "extra": ["Welcome to SamJ Movies"],
-        "extra": ["hello"],
-        "extra": ["hi"]
+        "extra": ["Search for something"],
+        "extra": ["What do you want to watch?"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
