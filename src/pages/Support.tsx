@@ -107,6 +107,8 @@ export function SupportPage() {
   "
   onClick={() => window.open("https://movies.samj.app", "_blank")}
 >
+</Button>
+>
               Go Home
             </Button>
           </div>
