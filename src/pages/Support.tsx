@@ -95,12 +95,40 @@ export function SupportPage() {
             <Button
               className="py px-4 box-content bg-buttons-secondary hover:bg-buttons-secondaryHover bg-opacity-90 text-buttons-secondaryText justify-center items-center inline-block"
               onClick={() =>
-                window.open("https://movies.samj.app", "_blank")
+                window.open("https://sussy-code.github.io/docs", "_blank")
               }
             >
-              Go home
+              Sudo-Flix Docs
             </Button>
           </div>
+        </Paragraph>
+        <Ol
+          items={[
+            <Item title={t("support.q1.title")}>
+              <Trans i18nKey="support.q1.body">
+                <MwLink to="https://discord.gg/r5cYshWM4G" />
+              </Trans>
+            </Item>,
+            <Item title={t("support.q2.title")}>
+              <Trans i18nKey="support.q2.body">
+                <MwLink to="https://github.com/sussy-code/smov" />
+              </Trans>
+            </Item>,
+          ]}
+        />
+        <Paragraph className="flex space-x-3 items-center">
+          <Icon icon={Icons.MAIL} />
+          <a
+            href={`mailto:${conf().DMCA_EMAIL}`}
+            style={{
+              transition: "color 0.3s ease",
+              color: isHovered ? "#cfcfcf" : "inherit",
+            }}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            {conf().DMCA_EMAIL ?? ""}
+          </a>
         </Paragraph>
       </ThinContainer>
     </SubPageLayout>
