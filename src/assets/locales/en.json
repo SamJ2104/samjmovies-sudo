@@ -490,11 +490,11 @@
     "text": "bro just figure it out its not that hard",
     "q1": {
       "body": "idk google it or smth",
-      "title": "Where can I get help?"
+      "title": "it doesnt work"
     },
     "q2": {
-      "body": "We have a <0>GitHub</0> where you can create a detailed issue in our repository. Additionally, if you wish, you can create a pull request to fix the issue yourself.",
-      "title": "How can I report a bug or issue?"
+      "body": "change the source in the settings to a different one or change the language/quality in the settings",
+      "title": "the movies in russsian/its low quality?"
     }
   },
   "screens": {
